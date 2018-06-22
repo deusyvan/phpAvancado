@@ -18,11 +18,15 @@ class  Post {
     }
 
     public function addComentario($msg){
-        
+        $this->comentarios[] = $msg;
     }
     
 }
 
 $post = new Post();
+
+$post->addComentario("Teste");
+$post->addComentario("Teste 2");
+$post->addComentario("Teste 3");
 
 ?>
