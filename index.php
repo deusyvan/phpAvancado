@@ -21,6 +21,10 @@ class  Post {
         $this->comentarios[] = $msg;
     }
     
+    public function getQuantosComentarios() {
+        return count($this->comentarios);
+    }
+    
 }
 
 $post = new Post();
