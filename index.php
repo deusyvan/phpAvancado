@@ -20,10 +20,15 @@ class  Post {
 
     public function addComentario($msg){
         $this->comentarios[] = $msg;
+        $this->contarComentarios();
     }
     
     public function getQuantosComentarios() {
         return $qtComentarios;
+    }
+    
+    private function contarComentarios(){
+        $this->qtComentarios = count($this->comentarios);
     }
     
 }
