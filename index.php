@@ -17,7 +17,9 @@ class  Post {
         }
     }
 
-    
+    public function addComentario($msg){
+        
+    }
     
 }
 
