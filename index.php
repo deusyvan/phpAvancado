@@ -6,14 +6,16 @@ class Animal {
 }
 
 
-class Cavalo {
+class Cavalo extends Animal{
     private $quantidade_de_patas;
     private $tipo_de_pelo;
 }
 
-class Gato {
+class Gato extends Animal{
     private $quantidade_de_patas;
     private $miado;
 }
+
+
 
 ?>
