@@ -1,9 +1,9 @@
 <?php
-namespace aplicacao\v1;
+namespace aplicacao\v2;
 
 class Sobre {
     public function getVersao(){
-        return '1.0';
+        return '2.0';
     }
 }
 
