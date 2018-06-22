@@ -1,9 +1,7 @@
 <?php
 
-//Pastas imaginárias
-
-// Arquivos separados
-
+require 'sobre1.php';
+require 'sobre2.php';
 
 
 
