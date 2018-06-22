@@ -16,6 +16,6 @@ class Gato extends Animal{
     private $miado;
 }
 
-
+$cavalo = new Cavalo();
 
 ?>
