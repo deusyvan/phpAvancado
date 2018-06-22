@@ -24,7 +24,7 @@ class  Post {
     }
     
     public function getQuantosComentarios() {
-        return $qtComentarios;
+        return $this->qtComentarios;
     }
     
     private function contarComentarios(){
@@ -38,5 +38,8 @@ $post = new Post();
 $post->addComentario("Teste");
 $post->addComentario("Teste 2");
 $post->addComentario("Teste 3");
+$post->addComentario("Teste 4");
+
+echo "Quantidade de comentários: ".$post->getQuantosComentarios();
 
 ?>
