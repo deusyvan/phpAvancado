@@ -5,6 +5,7 @@ class  Post {
     private $data;
     private $corpo;
     private $comentarios;
+    private $qtComentarios;
     
     public function getTitulo(){
         return $this->titulo;
@@ -22,7 +23,7 @@ class  Post {
     }
     
     public function getQuantosComentarios() {
-        return count($this->comentarios);
+        return $qtComentarios;
     }
     
 }
