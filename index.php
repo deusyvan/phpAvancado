@@ -29,4 +29,8 @@ class Cavalo extends Animal{
 
 $cavalo = new Cavalo();
 
+$cavalo->setNome("Cavalo Teste");
+
+echo "O meu cavalo é: ".$cavalo->getNome();
+
 ?>
