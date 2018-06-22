@@ -14,8 +14,8 @@ class Cachorro extends Animal{
     }
 }
 
-$animal = new Animal();
-$animal->getNome();
+$cachorro = new Cachorro();
+$cachorro->getNome();
 
 
 ?>
