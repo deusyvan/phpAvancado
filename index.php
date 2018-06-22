@@ -6,10 +6,16 @@ class Animal{
         echo "getNome da classe Animal";
     }
     
+    public function testar(){
+        echo "Testado";
+    }
+    
 }
 
 class Cachorro extends Animal{
-    
+    public function getNome(){
+        $this->testar();
+    }
 }
 
 $cachorro = new Cachorro();
