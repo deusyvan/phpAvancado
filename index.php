@@ -17,5 +17,8 @@ class Gato extends Animal{
 }
 
 $cavalo = new Cavalo();
+$cavalo->nome = "Cavalo 1";
+
+echo "O nome do meu cavalo é: ".$cavalo->nome;
 
 ?>
